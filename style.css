@@ -31,34 +31,15 @@ body {
 .nav-left {
   font-size: 20px;
   font-weight: bold;
+  
 }
 
-.nav-right {
-  display: flex;
-  gap: 25px;
-}
 
-.nav-right a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  position: relative;
-}
 
-.nav-right a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background: black;
-  left: 0;
-  bottom: -4px;
-  transition: width 0.3s ease;
-}
 
-.nav-right a:hover::after {
-  width: 100%;
-}
+
+
+
 
 .sketch{
   max-width: 860px;
@@ -109,6 +90,11 @@ p {
   line-height: 1.6;
 }
 
+
+.shaunat{width: 40px;position: sticky; top: 0;  z-index: 1000; }
+.shaunat:hover {
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
 
